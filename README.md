@@ -38,20 +38,27 @@ https://xyk.hit.edu.cn/
 
 ### 2) 运行脚本
 F12 打开开发者工具，切换到 **控制台**。
+
 点击 top 切换到 comepage
+
 <img width="1534" height="960" alt="2 comepage" src="https://github.com/user-attachments/assets/230324d9-c317-4240-a457-fc2e35adaf67" />
 
 将 `hiter-report.js`完整粘贴到 Console 回车执行。
+
 你会看到提示：“请翻页采集数据”、“完成后输入 report()”
+
 <img width="654" height="375" alt="3 翻页" src="https://github.com/user-attachments/assets/6cd03596-7fc3-4175-b8f9-138c738d4b5f" />
 
 ### 3) 翻页采集
 建议更改为每页显示100条信息，开始翻页。
+
 每翻一次，Console 会提示已捕获多少条流水。
+
 <img width="1525" height="834" alt="4 100" src="https://github.com/user-attachments/assets/523fa62f-cdc5-404b-9a8f-c2b8f0198727" />
 
 ### 4) 生成年度报告
 在 Console 输入：
+
 report()
 
 <img width="621" height="769" alt="5 report1" src="https://github.com/user-attachments/assets/d2b63a7f-38f8-4ae9-88d8-2effa55ff4e9" />
@@ -59,19 +66,22 @@ report()
 
 ### 统计口径
 **简单分类：**
-MERCNAME 包含 “车载POS” → 记为 巴士
-包含 “深澜/网费” → 记为 网费
-其余 → 默认 饮食
+MERCNAME 包含 “车载POS” → 记为 巴士；
+包含 “深澜/网费” → 记为 网费；
+其余 → 默认 饮食；
 
 **三餐时段（可按需修改）：**
-早餐：05:00–10:30
-午餐：10:30–15:30
-晚餐：16:00–22:00
+早餐：05:00–10:30；
+午餐：10:30–15:30；
+晚餐：16:00–22:00；
 
 ### 合规声明
 本项目仅用于个人数据统计与可视化学习交流。
+
 运行前提是你**已合法登录**并拥有查看该数据的权限。
+
 脚本**不会上传**你的数据；但浏览器控制台中显示的内容属于敏感信息，请谨慎在公开场合展示截图。
+
 请**遵守学校信息系统使用规范与相关法律法规**。作者不对滥用负责。
 
 ### TODO
