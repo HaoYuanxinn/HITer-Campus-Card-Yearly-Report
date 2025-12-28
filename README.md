@@ -19,7 +19,7 @@
   - 校园巴士：年度次数、峰值乘车时段、最晚一次乘车时间
 
 
-##  How it works (原理简述)
+##  How it works 
 
 脚本通过重写 `XMLHttpRequest.prototype.open`，监听页面发起的 XHR 请求；  
 当 URL 包含 `GetPersonTrjn` 时，解析 `responseText` 中的 `rows` 并缓存到 `Map` 中（以 `RO` 去重）。  
